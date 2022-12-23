@@ -1,0 +1,111 @@
+/** @format */
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+main {
+  margin: 10% 20%;
+  display: flex;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  min-width: 700px;
+}
+
+article {
+  padding: 1rem;
+  align-content: space-around;
+  position: relative;
+}
+.box-content {
+  margin: 10%;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  opacity: 80%;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 60%;
+}
+
+.orange-box {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.dark-cyan-box {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.very-dark-cyan-box {
+  background-color: hsl(179, 100%, 13%);
+}
+
+button {
+  display: inline-block;
+  position: absolute;
+  bottom: 3rem;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  padding: 0 5%;
+  border-radius: 50px;
+  min-width: 150px;
+  height: 3rem;
+  font-size: 1rem;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  color: #222;
+}
+
+.orange-button {
+  color: hsl(31, 77%, 52%);
+}
+
+.orange-button:active {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: solid 3px hsl(0, 0%, 95%);
+}
+
+.dark-cyan-button {
+  color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan-button:active {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: solid 3px hsl(0, 0%, 95%);
+}
+
+.very-dark-cyan-button {
+  color: hsl(179, 100%, 13%);
+}
+
+.very-dark-cyan-button:active {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: solid 3px hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width: 375px) {
+  main {
+    display: block;
+    margin: auto;
+    min-width: 100%;
+  }
+
+  p {
+    margin-bottom: 50%;
+  }
+}
