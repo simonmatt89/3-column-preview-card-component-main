@@ -98,10 +98,13 @@ button {
   border: solid 3px hsl(0, 0%, 95%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
+  body {
+    width: 375px;
+  }
+
   main {
     display: block;
-    margin: auto;
     min-width: 100%;
   }
 
@@ -109,3 +112,4 @@ button {
     margin-bottom: 50%;
   }
 }
+
